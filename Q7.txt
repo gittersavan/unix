@@ -1,0 +1,7 @@
+7.1 ->  $ grep -o '^.\{7\}' savna1 | grep -E ^t
+7.2 -> $ find . -maxdepth 1 -type f
+7.3 -> $ grep -n ^$ sav.txt | wc -l 
+7.3 -> $ grep -n ^$ sav.txt | tr -d :
+7.4 - > $ sed -e 'G' sav1.txt
+7.5 ->  $sed -n '4p' savan12345 | cut -c 5-10
+	
